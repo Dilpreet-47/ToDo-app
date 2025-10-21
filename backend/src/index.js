@@ -12,3 +12,4 @@ const app = express();
     console.error("MONGODB not connected successfully", error);
   }
 })();
+  
