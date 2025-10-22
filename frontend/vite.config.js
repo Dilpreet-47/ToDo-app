@@ -7,17 +7,4 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
 })
 
-// tailwind.config.js
-const { fontFamily } = require("tailwindcss/defaultTheme");
-
-module.exports = {
-  theme: {
-    extend: {
-      fontFamily: {
-        cookie: ['"Cookie"', ...fontFamily.sans],
-      },
-    },
-  },
-  plugins: [],
-};
 
